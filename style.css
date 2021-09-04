@@ -1,0 +1,84 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  background: blue;
+  height: 100%;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 55px;
+  color: rgb(216, 231, 0);
+  margin-top: 100px;
+}
+
+.container {
+  width: 500px;
+  margin: auto auto;
+  margin-top: 90px;
+}
+
+label,
+input {
+  display: block;
+  color: white;
+  width: 100%;
+  
+}
+
+label {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+input {
+  border-radius: 15px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 10px 0;
+  height: 30px;
+  outline: none;
+  color: black;
+}
+
+#calculate-number {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#calculate-number {
+  border: none;
+  color: black;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  font-size: large;
+  cursor: pointer;  
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  background-color: rgb(216, 231, 0);
+  font-weight: bold;
+  
+}
+
+#calculate-number:hover {    
+    background-color: rgb(132, 141, 1);    
+}
+
+#output-container { 
+  margin-top: 60px;  
+  text-align: center;  
+  font-size: 40px; 
+  font-weight: bold;
+  color: white;
+  
+}
+
