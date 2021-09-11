@@ -12,8 +12,7 @@ const calculateSum = (dob) => {
   return sum;
 };
 
-const checkIsNumberLucky = (sumOfDate, numberToCheck) => {
-  console.log(sumOfDate, numberToCheck);
+const checkIsNumberLucky = (sumOfDate, numberToCheck) => {  
   if (sumOfDate % numberToCheck === 0) {
     return showMessage(`${numberToCheck} is a lucky number!! 🥳 🥳 🥳 `);
   }
